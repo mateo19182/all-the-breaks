@@ -34,7 +34,7 @@ def process_wav_directory(directory):
     return processed_data
 
 # Specify the directory containing your WAV files
-directory = '/home/mateo/projects/drumsss/dataset'
+directory = 'dataset'
 # Process all WAV files
 results = process_wav_directory(directory)
 

@@ -1,44 +1,10 @@
-[Download on Huggingface](https://huggingface.co/mateo-19182/all-the-breaks)
+[Download and examples on Huggingface](https://huggingface.co/mateo-19182/all-the-breaks)
 
 smol model trained on 295 freely available drum breaks. No text conditioning was used (inspired by https://github.com/aaronabebe/micro-musicgen, also using his audiocraft fork). 
 
 only trained for 5 epochs, liked the sound there but can resume training with continue_from=checkpoint.th
 
 useful docs: https://github.com/facebookresearch/audiocraft/blob/main/docs/TRAINING.md
-
-examples:
-  (picked at random)
-
-<table style="width:100%; text-align:center;">
-  <tr>
-    <td>
-      <audio controls>
-        <source src="https://huggingface.co/mateo-19182/all-the-breaks/resolve/main/3.wav?download=true" type="audio/wav">
-        Your browser does not support the audio element.
-      </audio>
-    </td>
-    <td>
-      <audio controls>
-        <source src="https://huggingface.co/mateo-19182/all-the-breaks/resolve/main/sample_3.wav?download=true" type="audio/wav">
-        Your browser does not support the audio element.
-      </audio>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <audio controls>
-        <source src="https://huggingface.co/mateo-19182/all-the-breaks/resolve/main/9.wav?download=true" type="audio/wav">
-        Your browser does not support the audio element.
-      </audio>
-    </td>
-    <td>
-      <audio controls>
-        <source src="https://huggingface.co/mateo-19182/all-the-breaks/resolve/main/sample_9.wav?download=true" type="audio/wav">
-        Your browser does not support the audio element.
-      </audio>
-    </td>
-   </tr>
-</table>
 
 training:
 
